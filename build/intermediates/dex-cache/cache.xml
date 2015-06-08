@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/MrFu/Documents/AS_Workspace/ImageViewEx/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="eeebabdfd8203f6ab639ccea4ffa1f20e1adee3a">
+        <dex dex="/Users/MrFu/Documents/AS_Workspace/ImageViewEx/app/build/intermediates/pre-dexed/debug/classes-fd23941a3f5edfe3043f9696e8c6e0a88adbf733.jar" />
+    </item>
+    <item
+        jar="/Users/MrFu/Desktop/Android/adt-bundle-mac-x86_64-20131030/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.0/support-annotations-22.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="281bc6c58ecb3644c23fbc5ee0452019f67b4d5d">
+        <dex dex="/Users/MrFu/Documents/AS_Workspace/ImageViewEx/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.0-912eb76a2945c51cf6ab858576c4e0d39db0b63b.jar" />
+    </item>
+    <item
+        jar="/Users/MrFu/Documents/AS_Workspace/ImageViewEx/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="983e2f375504bc04def18e709c35192afe92e65f">
+        <dex dex="/Users/MrFu/Documents/AS_Workspace/ImageViewEx/app/build/intermediates/pre-dexed/debug/classes-7be10acbec50e1a17730b60276c9f866be383291.jar" />
+    </item>
+    <item
+        jar="/Users/MrFu/Documents/AS_Workspace/ImageViewEx/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.0/jars/libs/internal_impl-22.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="025cb89f2896c63200ff4c2e6c467a95691d880a">
+        <dex dex="/Users/MrFu/Documents/AS_Workspace/ImageViewEx/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.0-7f09ba3f31aa18398bcd7143d0dca0a014b42202.jar" />
+    </item>
+
+</items>

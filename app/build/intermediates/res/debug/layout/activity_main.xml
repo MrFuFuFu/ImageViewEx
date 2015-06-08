@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize" />
+
+    <mrfu.imageviewex.lib.ImageViewEx
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/toolbar"
+        android:scaleType="centerCrop" />
+
+    <mrfu.imageviewex.lib.RoundImageView
+        android:id="@+id/roundimageview1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/imageview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop" />
+
+    <mrfu.imageviewex.lib.RoundImageView
+        android:id="@+id/roundimageview2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/roundimageview1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text=""
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+<!-- From: file:/Users/MrFu/Documents/AS_Workspace/ImageViewEx/app/src/main/res/layout/activity_main.xml -->
