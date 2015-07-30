@@ -1,6 +1,8 @@
 package mrfu.imageviewex;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -26,13 +28,16 @@ public class MainActivity extends Activity {
     private void initTitleBar() {
         toolbar = (Toolbar)findViewById(R.id.toolbar);
         toolbar.setTitle("ImageView Load");
-        toolbar.setSubtitle("MrFu");
-        toolbar.setLogo(R.mipmap.ic_launcher);
+        toolbar.setLogo(R.mipmap.logo);
         toolbar.inflateMenu(R.menu.menu_main);
         toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
                @Override
                public boolean onMenuItemClick(MenuItem item) {
-                   return false;
+                 Uri uri = Uri.parse("https://github.com/MrFuFuFu/ImageViewEx");
+                 Intent i = new Intent(Intent.ACTION_VIEW, uri);
+                 i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                 startActivity(i);
+                 return false;
                }
            }
         );

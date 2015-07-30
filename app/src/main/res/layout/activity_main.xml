@@ -6,6 +6,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:elevation="8dp"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize" />
 
@@ -13,6 +14,7 @@
         android:id="@+id/imageview"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:layout_marginTop="10dp"
         android:layout_below="@+id/toolbar"
         android:scaleType="centerCrop" />
 

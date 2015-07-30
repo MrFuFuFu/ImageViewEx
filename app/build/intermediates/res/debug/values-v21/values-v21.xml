@@ -3,7 +3,7 @@
     <!-- From: file:/Users/MrFu/Documents/AS_Workspace/ImageViewEx/app/src/main/res/values-v21/themes.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="AppTheme.Base">
-        <item name="android:navigationBarColor">@color/theme_color_primary</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
     </style>
     <!-- From: file:/Users/MrFu/Documents/AS_Workspace/ImageViewEx/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/res/values-v21/values.xml -->
     <eat-comment/>
